@@ -1,0 +1,19 @@
+[project]
+name = "ml-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AsenDulakshnaKavinda", email = "s22010362@ousl.lk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.14.0",
+]
+
+[project.scripts]
+ml-pipeline = "ml_pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
